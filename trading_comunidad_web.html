@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comunidad de Trading Profesional</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:'Inter',sans-serif;
+background:#0b1120;
+color:#e5e7eb;
+}
+
+header{
+background:linear-gradient(135deg,#020617,#0f172a);
+padding:60px 20px;
+text-align:center;
+border-bottom:1px solid #1f2937;
+}
+
+h1{
+margin:0;
+font-size:40px;
+font-weight:700;
+}
+
+.subtitle{
+margin-top:10px;
+color:#94a3b8;
+font-size:18px;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+.card{
+background:#111827;
+padding:40px;
+border-radius:16px;
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
+margin-bottom:40px;
+}
+
+h2{
+margin-top:0;
+font-size:28px;
+}
+
+p{
+line-height:1.6;
+color:#cbd5f5;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:25px;
+}
+
+.feature{
+background:#0f172a;
+padding:20px;
+border-radius:12px;
+text-align:center;
+border:1px solid #1f2937;
+}
+
+.feature strong{
+display:block;
+margin-bottom:8px;
+}
+
+.buttons{
+margin-top:30px;
+}
+
+button{
+padding:15px 28px;
+margin:10px;
+border:none;
+border-radius:10px;
+font-size:16px;
+font-weight:600;
+cursor:pointer;
+transition:0.25s;
+}
+
+.whatsapp{
+background:#16a34a;
+color:white;
+}
+
+.whatsapp:hover{
+background:#15803d;
+}
+
+.download{
+background:#2563eb;
+color:white;
+}
+
+.download:hover{
+background:#1d4ed8;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.about div{
+background:#0f172a;
+padding:25px;
+border-radius:12px;
+border:1px solid #1f2937;
+}
+
+footer{
+background:#020617;
+padding:30px 20px;
+text-align:center;
+color:#94a3b8;
+border-top:1px solid #1f2937;
+}
+
+@media(max-width:800px){
+.about{
+grid-template-columns:1fr;
+}
+h1{font-size:32px}
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Comunidad de Trading Profesional</h1>
+<p class="subtitle">Apoyando a nuevos traders con educación gratuita y comunidad</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Aprende Trading con Nuestra Comunidad</h2>
+<p>
+Somos una comunidad independiente formada por traders que comparten conocimientos con personas que están comenzando en el mundo del trading. Nuestro objetivo es ayudar a principiantes a entender el mercado, mejorar su análisis y aprender a operar utilizando herramientas profesionales.
+</p>
+
+<p>
+La participación en nuestra comunidad es totalmente gratuita. Compartimos análisis, ideas de mercado y educación básica para que puedas desarrollar tus habilidades en trading.
+</p>
+
+<div class="buttons">
+<button class="whatsapp" onclick="window.location.href='https://chat.whatsapp.com/'">
+Unirse al Grupo de WhatsApp
+</button>
+
+<button class="download" onclick="window.location.href='https://www.metatrader4.com/'">
+Descargar Plataforma MT4
+</button>
+</div>
+</div>
+
+<div class="card">
+<h2>Lo que encontrarás en la comunidad</h2>
+
+<div class="features">
+<div class="feature">
+<strong>Educación para principiantes</strong>
+Explicaciones sencillas para entender el trading desde cero.
+</div>
+
+<div class="feature">
+<strong>Análisis del mercado</strong>
+Compartimos análisis técnicos para estudiar oportunidades.
+</div>
+
+<div class="feature">
+<strong>Uso de MT4</strong>
+Aprende a operar usando la plataforma MetaTrader 4.
+</div>
+
+<div class="feature">
+<strong>Comunidad activa</strong>
+Un grupo de personas aprendiendo trading juntos.
+</div>
+</div>
+</div>
+
+<div class="card about">
+<div>
+<h2>Nuestra misión</h2>
+<p>
+Crear una comunidad donde cualquier persona interesada en el trading pueda aprender sin tener que pagar cursos costosos. Creemos que la educación financiera debe ser accesible para todos.
+</p>
+</div>
+
+<div>
+<h2>Importante</h2>
+<p>
+Este proyecto es únicamente educativo. No somos asesores financieros y no garantizamos resultados en trading. Cada persona es responsable de sus propias decisiones de inversión.
+</p>
+</div>
+</div>
+
+</div>
+
+<footer>
+Comunidad independiente de educación en trading • Plataforma utilizada: MetaTrader 4
+</footer>
+
+</body>
+</html>
